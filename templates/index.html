@@ -17,9 +17,9 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Salario del padre" placeholder="Salario del padre" required="required" />
-        <input type="text" name="Edad del estudiante" placeholder="Edad del estudiante" required="required" />
-		<input type="text" name="Número de hermanos" placeholder="Número de hermanos" required="required" />
+    	  <!--<input type="text" name="Salario del padre" placeholder="Salario del padre" required="required" />-->
+      <input type="text" name="Edad del estudiante" placeholder="Codigo del estudiante" required="required" />
+		  <!-- <input type="text" name="Número de hermanos" placeholder="Número de hermanos" required="required" />-->
 
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Calcular descuento</button>
